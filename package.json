@@ -1,0 +1,24 @@
+{
+  "name": "bank-management-system-main",
+  "version": "1.0.0",
+  "description": "BANK MANAGEMENT SYSTEM, is a simple banking application for managing customers and employees in a bank. A PERN stack project with Node.js as back-end and React.js and Bootstrap as front-end. \r   Created a RESTful API in a Node.js environment running on a Express.js server using a PostgreSQL database. Also Includes PL/SQL concepts and DBMS querying.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd server && nodemon app.js\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushsatyam/Bank-Management-System-main.git",
+    "install": "cd server && npm install && cd ../client && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushsatyam/Bank-Management-System-main/issues"
+  },
+  "homepage": "https://github.com/kushsatyam/Bank-Management-System-main#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
